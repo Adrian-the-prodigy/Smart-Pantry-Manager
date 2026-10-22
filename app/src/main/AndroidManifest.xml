@@ -21,6 +21,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".AddIngredientActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".EditIngredientActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".SuggestedRecipesActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+
     </application>
 
 </manifest>

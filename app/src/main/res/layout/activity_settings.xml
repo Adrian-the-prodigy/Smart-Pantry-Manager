@@ -1,0 +1,55 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expiry Alerts"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose whether you want expiry alerts enabled in the app."
+        android:textSize="15sp"
+        android:layout_marginBottom="12dp" />
+
+    <Switch
+        android:id="@+id/switchExpiryAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable expiry alerts"
+        android:checked="true"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textSettingsStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your preference is saved automatically."
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonBackToPantrySettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Pantry" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="#F1F5F9">
+
+    <TextView
+        android:id="@+id/textIngredientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredient Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#172554" />
+
+    <TextView
+        android:id="@+id/textIngredientQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Quantity: 2 kg"
+        android:textSize="15sp"
+        android:textColor="#334155" />
+
+    <TextView
+        android:id="@+id/textIngredientExpiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Expiry: Not specified"
+        android:textSize="14sp"
+        android:textColor="#64748B" />
+
+</LinearLayout>
