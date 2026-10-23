@@ -1,3 +1,4 @@
+package com.example.smartpantrymanager;
 
 import android.content.Context;
 import android.content.Intent;
